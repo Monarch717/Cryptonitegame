@@ -1,0 +1,123 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+  margin-left: 16px;
+  padding-top: 50px;
+}
+.cardContent {
+  position: absolute;
+  top: -8.5%;
+  /* left: 18%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.cardInfoContainer {
+  width: 162px;
+  height: 52px;
+  background: linear-gradient(0deg, #ec4d05 0.09%, #f58b1f 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute; */
+  border-radius: 135.849px;
+}
+.cardInfoWrapper {
+  width: 158px;
+  height: 48px;
+  background: linear-gradient(0deg, #ffcc00 0.01%, #ff9700 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 135.849px;
+}
+.cardInfo {
+  width: 154px;
+  height: 44px;
+  background: linear-gradient(180deg, #54a2c9 0%, #334c93 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 135.849px;
+}
+.cardInfo > p {
+  font-family: prototype;
+  font-size: 16.39px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.cardImage {
+  padding-top: 16px;
+  margin: 0 auto;
+}
+.priceDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.priceDiv > img {
+  padding-right: 8px;
+}
+.priceDiv p {
+  font-family: prototype;
+  font-size: 20.2421px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.qtyAndBtn {
+  width: 185px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+}
+.qtyAndBtn > p {
+  font-family: prototype;
+  font-size: 0.7988rem;
+  line-height: 1.4375rem;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.inputDiv {
+  position: relative;
+}
+.inputDiv > input {
+  width: 87.34px;
+  height: 35.5px;
+  background: #36a8b8;
+  box-shadow: inset 0px 2.84022px 2.84022px rgba(0, 0, 0, 0.25);
+  border-radius: 8.52066px;
+  border-color: transparent;
+  border: none;
+  padding-left: 8px;
+  color: white;
+  font-family: prototype;
+}
+.btns {
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buyDiv {
+  font-family: prototype;
+  font-size: 12.781px;
+  line-height: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.buyDiv p {
+  position: absolute;
+}

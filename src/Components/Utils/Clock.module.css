@@ -1,0 +1,65 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 55px auto;
+}
+.ticWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-shrink: 0;
+  text-align: center;
+  margin: 10px;
+  width: 115px;
+}
+.ticImage {
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+}
+.ticWrapper > p {
+  position: relative;
+  font-family: "Prototype";
+  color: white;
+}
+.ticTime {
+  font-size: 2.5625rem;
+  line-height: 5.125rem;
+  width: 100%;
+  padding-top: 7px;
+}
+.ticType {
+  font-size: 1.4375rem;
+  line-height: 0rem;
+  padding-top: 7px;
+}
+@media screen and (max-width: 550px) {
+  .ticWrapper,
+  .ticImage {
+    width: 80px;
+  }
+  .ticTime {
+    font-size: 28px;
+    line-height: 56px;
+  }
+  .ticType {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .ticWrapper,
+  .ticImage {
+    width: 60px;
+  }
+  .ticTime {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .ticType {
+    font-size: 14px;
+  }
+}

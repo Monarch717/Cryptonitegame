@@ -1,0 +1,308 @@
+.container {
+  background-image: url("../../Assets/Images/shop/bkg.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.content {
+  position: relative;
+  max-width: 1281px;
+  height: 785px;
+  margin: 0 auto;
+  background: linear-gradient(
+      0deg,
+      rgba(123, 218, 255, 0.34),
+      rgba(123, 218, 255, 0.34)
+    ),
+    rgba(20, 19, 58, 0.4);
+  border: 4px solid rgba(255, 255, 255, 0.12);
+  box-sizing: border-box;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  margin-top: 51px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-family: prototype;
+  color: white;
+}
+.content > p {
+  position: relative;
+  max-width: 743px;
+  text-align: center;
+}
+.content > p:nth-child(1) {
+  font-size: 34px;
+  line-height: 19px;
+}
+.content > p:nth-child(2) {
+  font-size: 14px;
+  line-height: 19px;
+  padding-top: 24px;
+}
+.content_info {
+  width: 46px;
+  height: 46px;
+  background: linear-gradient(0deg, #ffcc00 0.01%, #ff9700 100%);
+  box-shadow: inset 7.87984px 11.0318px 18.9116px rgba(0, 0, 0, 0);
+  border: 2px solid #b74309;
+  border-radius: 209.118px;
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  font-size: 28px;
+  cursor: pointer;
+}
+.prizesDiv {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  max-width: 25000px;
+  height: 410px;
+  right: 1990px;
+  margin: 0 auto;
+}
+.spinWrapper {
+  position: relative;
+  margin: 0 auto;
+  height: 410px;
+  width: 1393px;
+
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 40px;
+  left: -60px;
+  /* overflow: hidden; */
+}
+.prizes {
+  max-width: 1393px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  position: relative;
+  margin: 0 auto;
+}
+
+.prizes li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  border: 4px solid transparent;
+}
+
+.prizes li img {
+  padding: 7px;
+  width: 191px;
+  height: 191px;
+}
+.prizeMagnifier {
+  position: absolute;
+  width: 395.19px;
+  height: 395.19px;
+  border-radius: 50%;
+  background: linear-gradient(
+    149.96deg,
+    rgba(115, 181, 229, 0.5) 13.79%,
+    rgba(115, 181, 229, 0.13) 87.8%
+  );
+  backdrop-filter: blur(42.5147px);
+
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.prizeMagnifier > img {
+  position: absolute;
+}
+.prizeMagnifier > img:nth-child(2) {
+  transform: rotate(180deg);
+  bottom: 0;
+}
+.launchAndSpin {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: 40px;
+}
+.launchAndSpin > img {
+  position: relative;
+  bottom: -120px;
+}
+.spinBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.spinBtn > p {
+  position: absolute;
+  font-size: 31.2279px;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e45404;
+  cursor: pointer;
+}
+.resultContainer {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.resultPrize {
+  padding-top: 27px;
+}
+.recentWinsDiv {
+  width: 437px;
+  height: 121px;
+  background: radial-gradient(
+    47.35% 79.1% at 50.44% 107.32%,
+    #00d3c2 0%,
+    #0083c2 100%
+  );
+  box-shadow: 0px 24px 24px -27px rgba(0, 0, 0, 0.25);
+  border-radius: 146.819px;
+}
+.recentWin {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.whoAndTime {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.result_who {
+  font-size: 22px;
+  line-height: 26px;
+}
+.result_time {
+  font-size: 14px;
+  line-height: 26px;
+}
+.whatWon {
+  margin-top: 29px;
+  width: 110%;
+  height: 68px; /* new */
+
+  background: linear-gradient(355.41deg, #ec2a00 -76.19%, #ffbd00 98.24%);
+  border-radius: 180px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  border: 3.39px solid #ffcc00;
+}
+.whatWon > p {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  font-size: 27.0024px;
+  line-height: 87px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.prizeDescription {
+  padding-top: 29px;
+  max-width: 511px;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.spinAgain {
+  padding-top: 29px;
+  cursor: pointer;
+}
+.spinAgain > p {
+  position: absolute;
+  font-size: 27.23px;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e45404;
+}
+@media (max-width: 1280px) {
+  .spinWrapper {
+    width: 100%;
+    left: unset;
+  }
+}
+@media (max-width: 430px) {
+  .launchAndSpin {
+    bottom: 10px;
+  }
+}
+
+.cryptoniteSection {
+  position: relative;
+  left: 475px;
+  top: 125px;
+  z-index: 1;
+}
+
+@media (max-width: 1250px) {
+  .cryptoniteSection {
+    left: 415px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .container {
+    background: radial-gradient(
+      101.25% 101.26% at 48.51% 118.46%,
+      #66dada 0%,
+      #332c7e 100%
+    );
+  }
+  .cryptoniteSection {
+    left: 405px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cryptoniteSection {
+    left: 350px;
+  }
+}
+
+@media (max-width: 950px) {
+  .cryptoniteSection {
+    left: 300px;
+  }
+}
+
+@media (max-width: 850px) {
+  .cryptoniteSection {
+    left: 230px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .cryptoniteSection {
+    left: 0px;
+    top: 85px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cryptoniteSection {
+    top: 75px;
+  }
+}

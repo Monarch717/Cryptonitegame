@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+  z-index: 1;
+}
+.container > * {
+  z-index: 1;
+}
+
+.heading {
+  text-align: center;
+  margin: 150px 0;
+  font-size: 120px;
+  font-family: StarforgeRegular;
+  background-clip: text;
+  background: linear-gradient(0deg, #54ddc5 5.79%, #40e5fc 89.94%);
+  text-shadow: 0px 0px 54px rgba(77, 224, 217, 0.8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
+  -webkit-text-stroke: 1px #230a52;
+}
+
+.subtitle {
+  background: rgb(249, 227, 249, 0.5);
+  border: 1px solid #000; 
+  border-radius: 10px;
+  color:#230a52 /*  #932ace*/;
+  padding: 20px;
+  text-align: center;
+}
+
+.arrowSize {
+  font-size: 24px;
+}
+
+.boldClass {
+  font-weight: 800;
+}
+
+.tileContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+.buyPacksBtn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 78px;
+  margin-bottom: 114px;
+}
+.buyPacksBtn > img {
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+}
+.buyPacksBtn > p {
+  font-family: "Prototype";
+  font-size: 28.8592px;
+  line-height: 2.4375rem;
+  color: #e45404;
+  z-index: 10;
+}
+@media screen and (max-width: 960px) {
+  .heading {
+    font-size: 44px;
+    margin: 80px 0 0 0;
+  }
+  .container {
+    margin-top: 200px;
+  }
+  
+  .subtitle {
+    max-width: 100%;
+    margin: 0 10px 0 10px;
+    background: rgb(249, 227, 249, 0.6);
+  }
+}
+@media screen and (max-width: 960px) {
+  .container {
+    margin-top: 400px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .buyPacksBtn > img {
+    width: 220px;
+  }
+  .buyPacksBtn > p {
+    font-size: 18px;
+    line-height: 0px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .container {
+    margin-top: 90px;
+    margin-bottom: 0;
+  }
+  .tileContainer {
+    /* margin-top: 60px; */
+  }
+}
+@media screen and (max-width: 400px) {
+  .buyPacksBtn > img {
+    width: 190px;
+  }
+  .buyPacksBtn > p {
+    font-size: 18px;
+    line-height: 0px;
+  }
+}

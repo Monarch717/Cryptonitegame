@@ -1,0 +1,11 @@
+.container {
+  background: radial-gradient(
+    101.25% 101.26% at 48.51% 118.46%,
+    #66dada 0%,
+    #332c7e 100%
+  );
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}

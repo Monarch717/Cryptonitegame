@@ -1,0 +1,211 @@
+.container {
+  margin-top: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 400px;
+  z-index: 1;
+}
+
+.avatarContainer {
+  display: flex;
+  align-items: center;
+  z-index: 9999;
+}
+
+.heading {
+  text-align: center;
+  margin: 0 0 230px 0;
+  font-size: 120px;
+  font-family: StarforgeRegular;
+  background-clip: text;
+  background: linear-gradient(0deg, #54ddc5 5.79%, #40e5fc 89.94%);
+  text-shadow: 0px 0px 54px rgba(77, 224, 217, 0.8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #230a52;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.row img {
+  justify-self: center;
+  height: auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+.rowTablet {
+  display: none;
+}
+
+.rowMobile {
+  display: none;
+}
+
+.acidTile {
+  background-image: url("https://crpyotonite-game-site.s3.eu-west-2.amazonaws.com/images/tile-2.svg");
+  width: 414px;
+  height: 434px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+}
+
+.waterTile {
+  background-image: url("https://crpyotonite-game-site.s3.eu-west-2.amazonaws.com/images/tile-1.svg");
+  width: 414px;
+  height: 434px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+}
+
+.fireTile {
+  background-image: url("https://crpyotonite-game-site.s3.eu-west-2.amazonaws.com/images/tile-3.svg");
+  width: 414px;
+  height: 434px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+}
+
+.tileHeader {
+  color: #000;
+  margin: 0 0 0 35px;
+  font-family: Prototype;
+}
+
+.tileText {
+  color: #000;
+  margin: 20px 35px 0 35px;
+  font-family: Prototype;
+  font-size: 18px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 960px) {
+  .row img {
+    max-width: 350px;
+  }
+
+  .avatarContainer > img:nth-child(1),
+  .avatarContainer > img:nth-child(3) {
+    display: none;
+  }
+  .avatarContainer > img:nth-child(2) {
+    margin: 0px auto;
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  .acidTile {
+    background-image: url("https://crpyotonite-game-site.s3.eu-west-2.amazonaws.com/images/tile-2.svg");
+    width: 414px;
+    height: 434px;
+  }
+
+  .waterTile {
+    background-image: url("https://crpyotonite-game-site.s3.eu-west-2.amazonaws.com/images/tile-1.svg");
+    width: 414px;
+    height: 434px;
+  }
+
+  .fireTile {
+    background-image: url("https://crpyotonite-game-site.s3.eu-west-2.amazonaws.com/images/tile-3.svg");
+    width: 414px;
+    height: 434px;
+  }
+
+  .row {
+    display: none;
+  }
+
+  .rowMobile {
+    display: none;
+  }
+
+  .rowTablet {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rowTablet img {
+    justify-self: center;
+    height: auto;
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .alienMobile {
+    position: relative;
+  }
+
+  .fireAlienMobile {
+    position: relative;
+  }
+
+  .tileText {
+    color: #000;
+    margin: 20px 35px 0 35px;
+    font-family: Prototype;
+    font-size: 15px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    margin-bottom: 0;
+    margin-top: 100px;
+  }
+  .avatarContainer {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .tile {
+    width: 368px;
+    height: 386px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .tileText {
+    color: #000;
+    margin: 20px 35px 0 35px;
+    font-family: Prototype;
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  .row {
+    display: none;
+  }
+
+  .rowTablet {
+    display: none;
+  }
+
+  .rowMobile {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+}

@@ -1,0 +1,123 @@
+export const WATERStyles = {
+  playerBKG: `linear-gradient(180deg, #54a2c9 0%, #334c93 100%)`,
+  feedPotionNumberBKG:
+    "linear-gradient(158.33deg, #243238 9.89%, #151e39 85.84%)",
+  feedLabelBKG: "linear-gradient(180deg, #55a4cb 0%, #476ad0 100%)",
+
+  feederBKG: `radial-gradient(
+    47.35% 79.1% at 50.44% 107.32%,
+    #00d3c2 0%,
+    #0083c2 100%
+  )`,
+  feederCellBKG: `linear-gradient(180deg, #4382a0 0%, #151e39 100%)`,
+  potionWrapperBKG: `radial-gradient(
+    47.35% 79.1% at 50.44% 107.32%,
+    #00d3c2 0%,
+    #0083c2 100%
+  )`,
+  potionBKG: `linear-gradient(180deg, #4382a0 0%, #151e39 100%)`,
+  kindWrapper: `linear-gradient(180deg, #4382a0 0%, #151e39 100%)`,
+  kindDiv: `linear-gradient(180deg, #55a4cb 0%, #476ad0 100%)`,
+  lvlprogContainer: `radial-gradient(
+    47.35% 79.1% at 50.44% 107.32%,
+    #00d3c2 0%,
+    #0083c2 100%
+  )`,
+  lvlprogWrapper: `linear-gradient(180deg, #4382a0 0%, #151e39 100%)`,
+  lvlprog: `linear-gradient(296.84deg, #54a2c9 20.04%, #334c93 69.69%)`,
+  lvlWrapper: `radial-gradient(
+    47.35% 79.1% at 50.44% 107.32%,
+    #00d3c2 0%,
+    #0083c2 100%
+  )`,
+  lvl: `linear-gradient(180deg, #54a2c9 0%, #334c93 100%)`,
+  videoFooter: `linear-gradient(
+    180deg,
+    rgba(85, 164, 203, 0.5) 0%,
+    rgba(71, 106, 208, 0.5) 100%
+  )`,
+  feedAlienContainer: `linear-gradient(180deg, #54a2c9 0%, #334c93 100%)`,
+  feedAlienWrapper: `linear-gradient(180deg, #4382a0 0%, #151e39 100%)`,
+  feedPotionWrapper: `linear-gradient(180deg, #54a2c9 0%, #334c93 100%)`,
+  feedPotionNumber: `linear-gradient(158.33deg, #243238 9.89%, #151e39 85.84%)`,
+  feedAlienLabel: `linear-gradient(180deg, #55a4cb 0%, #476ad0 100%)`,
+  mineContainer: `radial-gradient(
+    40.17% 40.17% at 63.42% 59.83%,
+    rgba(194, 194, 194, 0.3) 0%,
+    rgba(22, 22, 22, 0.3) 100%
+  )`,
+  mineLabel: `linear-gradient(180deg, #55a4cb 0%, #476ad0 100%)`,
+  selectAxesCont: `linear-gradient(180deg, #54a2c9 0%, #334c93 100%)`,
+  selectAxesWrapper: `linear-gradient(180deg, #4382a0 0%, #151e39 100%)`,
+  selectAxeContainer: `linear-gradient(180deg, #54a2c9 0%, #334c93 100%)`,
+  selectAxeWrapper: `radial-gradient(
+    47.35% 79.1% at 50.44% 107.32%,
+    #00d3c2 0%,
+    #0083c2 100%
+  )`,
+  selectAxeNumber: `linear-gradient(158.33deg, #243238 9.89%, #151e39 85.84%)`,
+  selectAxesLabel: `linear-gradient(180deg, #55a4cb 0%, #476ad0 100%)`,
+};
+
+export const FIREStyles = {
+  playerBKG: `linear-gradient(0deg, #EC4D05 0.09%, #F58B1F 100%)`,
+  feedPotionNumberBKG: "linear-gradient(180deg, #BD2D00 0%, #500C08 100%)",
+  feedLabelBKG: "linear-gradient(0deg, #EC4D05 0.09%, #F58B1F 100%)",
+  feederBKG: `linear-gradient(0deg, #FFCC00 0.01%, #FF9700 100%)`,
+  feederCellBKG: `linear-gradient(0deg, #EC2A00 0.09%, #FF6B00 100%)`,
+  potionWrapperBKG: `linear-gradient(0deg, #EC2A00 0.09%, #FF6B00 100%)`,
+  potionBKG: `linear-gradient(0deg, #FFCC00 0.01%, #FF9700 100%)`,
+  kindWrapper: `linear-gradient(0deg, #FFCC00 0.01%, #FF9700 100%)`,
+  kindDiv: `linear-gradient(0deg, #EC2A00 0.09%, #FF6B00 100%)`,
+  lvlprogContainer: `linear-gradient(0deg, #FFCC00 0.01%, #FF9700 100%)`,
+  lvlprogWrapper: `linear-gradient(180deg, #BD2D00 0%, #500C08 100%)`,
+  lvlprog: `linear-gradient(104.23deg, #F70000 24.83%, #FF6B00 72.16%)`,
+  lvlWrapper: `linear-gradient(0deg, #FFCC00 0.01%, #FF9700 100%)`,
+  lvl: `linear-gradient(104.23deg, #F70000 24.83%, #FF6B00 72.16%)`,
+  videoFooter: `linear-gradient(0deg, rgba(255, 204, 0, 0.5) 0.01%, rgba(255, 151, 0, 0.5) 100%)`,
+  feedAlienContainer: `linear-gradient(0deg, #FFCC00 0.01%, #FF9700 100%)`,
+  feedAlienWrapper: `linear-gradient(0deg, #EC2A00 0.09%, #FF6B00 100%)`,
+  feedPotionWrapper: `linear-gradient(0deg, #FFCC00 0.01%, #FF9700 100%)`,
+  feedPotion: `linear-gradient(355.41deg, #EC2A00 -76.19%, #FFBD00 98.24%)`,
+  feedPotionNumber: `linear-gradient(180deg, #BD2D00 0%, #500C08 100%)`,
+  feedAlienLabel: `linear-gradient(0deg, #FFCC00 0.01%, #FF9700 100%)`,
+  mineContainer: `radial-gradient(40.17% 40.17% at 63.42% 59.83%, rgba(194, 194, 194, 0.3) 0%, rgba(22, 22, 22, 0.3) 100%)`,
+  mineLabel: `linear-gradient(0deg, #FFCC00 0.01%, #FF9700 100%)`,
+  selectAxesCont: `linear-gradient(0deg, #FFCC00 0.01%, #FF9700 100%)`,
+  selectAxesWrapper: `linear-gradient(0deg, #EC2A00 0.09%, #FF6B00 100%)`,
+  selectAxeContainer: `linear-gradient(0deg, #FFCC00 0.01%, #FF9700 100%)`,
+  selectAxeWrapper: `linear-gradient(355.41deg, #EC2A00 -76.19%, #FFBD00 98.24%)`,
+  selectAxeNumber: `linear-gradient(180deg, #BD2D00 0%, #500C08 100%)`,
+  selectAxesLabel: `linear-gradient(0deg, #FFCC00 0.01%, #FF9700 100%)`,
+};
+export const GREENStyles = {
+  playerBKG: `linear-gradient(180deg, #80E200 0%, #358D19 100%)`,
+  feedPotionNumberBKG: "#254200",
+  feedLabelBKG: "linear-gradient(180deg, #80E200 0%, #358D19 100%)",
+  feederBKG: `linear-gradient(180deg, #477B03 0%, #1C480E 100%)`,
+  feederCellBKG: `linear-gradient(180deg, #80E200 0%, #358D19 100%)`,
+  potionWrapperBKG: `linear-gradient(180deg, #477B03 0%, #1C480E 100%)`,
+  potionBKG: `linear-gradient(180deg, #80E200 0%, #358D19 100%)`,
+  kindWrapper: `linear-gradient(180deg, #477B03 0%, #1C480E 100%)`,
+  kindDiv: `linear-gradient(180deg, #80E200 0%, #358D19 100%)`,
+  lvlprogContainer: `linear-gradient(0deg, #AAFF3C 0.01%, #69CC07 92.24%)`,
+  lvlprogWrapper: `linear-gradient(180deg, #477B03 0%, #1C480E 100%)`,
+  lvlprog: `linear-gradient(180deg, #80E200 0%, #358D19 100%)`,
+  lvlWrapper: `linear-gradient(0deg, #AAFF3C 0.01%, #69CC07 92.24%)`,
+  lvl: `linear-gradient(180deg, #80E200 0%, #358D19 100%)`,
+  videoFooter: `linear-gradient(180deg, rgba(128, 226, 0, 0.5) 0%, rgba(53, 141, 25, 0.5) 100%)`,
+  feedAlienContainer: `linear-gradient(180deg, #80E200 0%, #358D19 100%)`,
+  feedAlienWrapper: `linear-gradient(180deg, #477B03 0%, #1C480E 100%)`,
+  feedPotionWrapper: `linear-gradient(180deg, #80E200 0%, #358D19 100%)`,
+  feedPotion: `linear-gradient(0deg, #AAFF3C 0.01%, #69CC07 92.24%)`,
+  feedPotionNumber: `#254200`,
+  feedAlienLabel: `linear-gradient(180deg, #80E200 0%, #358D19 100%)`,
+  mineContainer: `radial-gradient(40.17% 40.17% at 63.42% 59.83%, rgba(194, 194, 194, 0.3) 0%, rgba(22, 22, 22, 0.3) 100%)`,
+  mineLabel: `linear-gradient(180deg, #80E200 0%, #358D19 100%)`,
+  selectAxesCont: `linear-gradient(180deg, #80E200 0%, #358D19 100%)`,
+  selectAxesWrapper: `linear-gradient(180deg, #477B03 0%, #1C480E 100%)`,
+  selectAxeContainer: `linear-gradient(180deg, #80E200 0%, #358D19 100%)`,
+  selectAxeWrapper: `linear-gradient(0deg, #AAFF3C 0.01%, #69CC07 92.24%)`,
+  selectAxeNumber: `#254200`,
+  selectAxesLabel: `linear-gradient(180deg, #80E200 0%, #358D19 100%)`,
+};

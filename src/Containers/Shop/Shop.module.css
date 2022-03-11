@@ -1,0 +1,126 @@
+.container {
+  background-image: url("../../Assets/Images/shop/bkg.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.content {
+  max-width: 1281px;
+  /* height: 524px; */
+  margin: 0 auto;
+  background: linear-gradient(
+      0deg,
+      rgba(123, 218, 255, 0.34),
+      rgba(123, 218, 255, 0.34)
+    ),
+    rgba(20, 19, 58, 0.4);
+  border: 4px solid rgba(255, 255, 255, 0.12);
+  box-sizing: border-box;
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border-radius: 30.35px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer {
+  margin-top: 110px;
+  padding-bottom: 25px;
+}
+
+.cryptoniteSection {
+  position: relative;
+  left: 475px;
+  top: 75px;
+  z-index: 1;
+}
+
+@media (max-width: 1250px) {
+  .cryptoniteSection {
+    position: relative;
+    left: 415px;
+    top: 95px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 1130px) {
+  .container {
+    background: radial-gradient(
+      101.25% 101.26% at 48.51% 118.46%,
+      #66dada 0%,
+      #332c7e 100%
+    );
+  }
+}
+
+  @media (max-width: 1024px) {
+    .cryptoniteSection {
+      position: relative;
+      left: 350px;
+      top: 95px;
+      z-index: 1;
+    }
+  }
+
+  @media (max-width: 950px) {
+    .cryptoniteSection {
+      position: relative;
+      left: 300px;
+      top: 95px;
+      z-index: 1;
+    }
+  }
+
+@media (max-width: 850px) {
+  .cryptoniteSection {
+    position: relative;
+    left: 230px;
+    top: 95px;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .cryptoniteSection {
+    position: relative;
+    left: 230px;
+    top: 95px;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .cryptoniteSection {
+    position: relative;
+    left: 0px;
+    top: 85px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 500px) {
+  .cryptoniteSection {
+    position: relative;
+    left: 0px;
+    top: 75px;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .cryptoniteSection {
+    position: relative;
+    left: 0px;
+    top: 75px;
+    z-index: 1;
+  }
+}

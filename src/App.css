@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Prototype";
+  src: url("./Assets/Fonts/Prototype.ttf");
+}
+
+@font-face {
+  font-family: "StarforgeOutline";
+  src: url("./Assets/Fonts/StarforgeOutline.woff2");
+}
+
+@font-face {
+  font-family: "StarforgeRegular";
+  src: url("./Assets/Fonts/StarforgeRegular.woff2");
+}
+.App {
+  /* user-select: none; */
+  overflow-x: hidden;
+}
+body {
+  scroll-behavior: smooth;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}

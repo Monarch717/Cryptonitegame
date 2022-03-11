@@ -1,0 +1,261 @@
+.navbar {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  color: white;
+  font-family: Prototype;
+  font-size: 18px;
+  z-index: 1;
+}
+
+.navbarHome {
+  /* max-width: 1440px; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-family: Prototype;
+  font-size: 18px;
+  /* z-index: 1; */
+  position: fixed;
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 100;
+}
+.navbar > * {
+  z-index: 1;
+}
+.navIcon {
+  display: none;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.cryptoniteLogo {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.links {
+  /* margin-left: 200px; */
+}
+
+.links ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.links ul li {
+  list-style: none;
+  margin: 10px 20px;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.links ul li a {
+  cursor: pointer;
+  color: white;
+  /* text-shadow: rgba(255, 255, 255, 0.05) 3px 0px 0px,
+    rgba(255, 255, 255, 0.05) 2.83487px 0.981584px 0px,
+    rgba(255, 255, 255, 0.05) 2.35766px 1.85511px 0px,
+    rgba(255, 255, 255, 0.05) 1.62091px 2.52441px 0px,
+    rgba(255, 255, 255, 0.05) 0.705713px 2.91581px 0px,
+    rgba(255, 255, 255, 0.05) -0.287171px 2.98622px 0px,
+    rgba(255, 255, 255, 0.05) -1.24844px 2.72789px 0px,
+    rgba(255, 255, 255, 0.05) -2.07227px 2.16926px 0px,
+    rgba(255, 255, 255, 0.05) -2.66798px 1.37182px 0px,
+    rgba(255, 255, 255, 0.05) -2.96998px 0.42336px 0px,
+    rgba(255, 255, 255, 0.05) -2.94502px -0.571704px 0px,
+    rgba(255, 255, 255, 0.05) -2.59586px -1.50383px 0px,
+    rgba(255, 255, 255, 0.05) -1.96093px -2.27041px 0px,
+    rgba(255, 255, 255, 0.05) -1.11013px -2.78704px 0px,
+    rgba(255, 255, 255, 0.05) -0.137119px -2.99686px 0px,
+    rgba(255, 255, 255, 0.05) 0.850987px -2.87677px 0px,
+    rgba(255, 255, 255, 0.05) 1.74541px -2.43999px 0px,
+    rgba(255, 255, 255, 0.05) 2.44769px -1.73459px 0px,
+    rgba(255, 255, 255, 0.05) 2.88051px -0.838247px 0px; */
+  /* text-shadow: 0px 4.8px 9.6px rgba(51, 51, 51, 0.25); */
+}
+
+.links ul li a:link {
+  text-decoration: none;
+}
+
+.links ul li a:visited {
+  text-decoration: none;
+}
+
+.metamaskBtn {
+  cursor: pointer;
+  margin-right: 30px;
+  position: relative;
+}
+
+.metamaskBtn > div {
+  color: #fff;
+  font-size: 14px;
+  font-family: Prototype;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 190px;
+}
+
+.metamaskBtn > div > div {
+  margin-left: 10px;
+}
+.metamaskBtn > img {
+  pointer-events: none;
+}
+.links2 {
+  z-index: 2;
+  display: none;
+  position: fixed;
+  transform: translateX(-500px);
+  top: 100px;
+  left: 30px;
+  background: linear-gradient(
+      0deg,
+      rgba(97, 211, 255, 0.15),
+      rgba(97, 211, 255, 0.15)
+    ),
+    linear-gradient(
+      332.27deg,
+      rgba(255, 255, 255, 0.062) 11.8%,
+      rgba(255, 255, 255, 0.094) 41.03%,
+      rgba(255, 255, 255, 0.0604125) 41.04%,
+      rgba(255, 255, 255, 0) 105.19%
+    ),
+    #14133a;
+  border: 2.65473px solid rgba(255, 255, 255, 0.19);
+  box-sizing: border-box;
+  box-shadow: inset -0.88491px -0.88491px 3.53964px rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(70.7928px);
+  border-radius: 30.35px;
+  padding: 30px 0px;
+  width: 330px;
+  margin-left: 0px;
+  transition: all 0.3s linear;
+}
+
+.links2 a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.links2 ul {
+  flex-direction: column;
+  padding-left: 0px;
+}
+
+.links2 ul li {
+  list-style: none;
+  padding: 5px 10px;
+  margin: 5px auto;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Change the color of links on hover */
+.links2 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.links2 a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.links3 {
+  position: absolute;
+  list-style: none;
+  text-align: center;
+  top: 50px;
+  width: 200px;
+  background: linear-gradient(
+      0deg,
+      rgba(97, 211, 255, 0.15),
+      rgba(97, 211, 255, 0.15)
+    ),
+    linear-gradient(
+      332.27deg,
+      rgba(255, 255, 255, 0.062) 11.8%,
+      rgba(255, 255, 255, 0.094) 41.03%,
+      rgba(255, 255, 255, 0.0604125) 41.04%,
+      rgba(255, 255, 255, 0) 105.19%
+    ),
+    #14133a;
+  border: 2.65473px solid rgba(255, 255, 255, 0.19);
+  box-sizing: border-box;
+  box-shadow: inset -0.88491px -0.88491px 3.53964px rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(70.7928px);
+  border-radius: 10px;
+  padding: 10px;
+  display: none;
+}
+
+.links3 > li:first-child {
+  margin-bottom: 10px;
+}
+
+.links3 > li:first-child a {
+  color: aqua;
+}
+
+.links3 > li a {
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 1140px) {
+  .cryptoniteLogo {
+    display: none;
+  }
+
+  .navIcon {
+    display: block;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .links2 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 712px) {
+  .metamaskBtn > img {
+    width: 215px;
+  }
+
+  .metamaskBtn > div {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .metamaskBtn {
+    margin-right: 15px;
+  }
+
+  .links2 {
+    width: 300px;
+  }
+}

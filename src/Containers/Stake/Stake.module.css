@@ -1,0 +1,440 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-display.min.css");
+.container {
+  background-image: url("../../Assets/Images/shop/bkg.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.content {
+  max-width: 1281px;
+  padding: 0 24px;
+  /* height: 100vh; */
+  margin: 0 auto;
+  background: linear-gradient(
+      0deg,
+      rgba(123, 218, 255, 0.34),
+      rgba(123, 218, 255, 0.34)
+    ),
+    rgba(20, 19, 58, 0.4);
+  border: 4px solid rgba(255, 255, 255, 0.12);
+  box-sizing: border-box;
+  backdrop-filter: blur(20px);
+  border-radius: 30.35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+}
+.footer {
+  /* margin-top: 110px; */
+  /* padding-bottom: 25px; */
+}
+.fcc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contentWrapper {
+  position: relative;
+  top: -40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.balanceDivWrapper {
+  background: linear-gradient(180deg, #f58b1f 0%, #b74309 100%);
+  width: 299px;
+  height: 68px;
+  border-radius: 180px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.balanceDiv {
+  width: 293px;
+  height: 62px;
+  border-radius: 180px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  background: linear-gradient(180deg, #54a2c9 0%, #334c93 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 6.78265px 9.49571px 16.2784px rgba(0, 0, 0, 0.25);
+}
+.balanceDiv > p {
+  position: relative;
+  left: -20px;
+  font-family: "prototype";
+  font-size: 27.0024px;
+  line-height: 87px;
+  text-transform: uppercase;
+}
+.balanceDiv > img {
+  position: absolute;
+  right: 25px;
+}
+.daysTolvlDiv > p {
+  font-family: "prototype";
+  font-size: 20.4875px;
+  padding-top: 66px;
+  text-align: center;
+}
+
+.progressAndLevel {
+  display: flex;
+  align-items: center;
+}
+.progressContainer {
+  background: linear-gradient(0deg, #ffcc00 0.01%, #ff9700 100%);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  height: 42px;
+  width: 326px;
+  border-radius: 180px;
+}
+.progressWrapper {
+  background: linear-gradient(180deg, #4382a0 0%, #151e39 100%);
+  height: 33.334930419921875px;
+  width: 318.4865417480469px;
+  border-radius: 180px;
+}
+.progress {
+  background: linear-gradient(
+    270.93deg,
+    #ffdb4a 6.06%,
+    #ffcc00 46.83%,
+    #ff9700 93.62%
+  );
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  height: 34px;
+  width: 250.3354949951172px;
+  border-radius: 180px;
+}
+.lvlContainer {
+  background: linear-gradient(0deg, #ffcc00 0.01%, #ff9700 100%);
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  position: relative;
+  left: -30px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.lvlWrapper {
+  background: linear-gradient(180deg, #4382a0 0%, #151e39 100%);
+  /* transform: matrix(1, 0, 0, -1, 0, 0); */
+  height: 59px;
+  width: 59px;
+  border-radius: 50%;
+}
+.lvl {
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  font-family: "prototype";
+  font-size: 18.7739px;
+  line-height: 22px;
+}
+.qtyToStake > p {
+  text-align: center;
+  font-family: prototype;
+  line-height: 66px;
+  font-size: 20.4875px;
+  padding-top: 38px;
+}
+.qtyToStake > input {
+  width: 448px;
+  height: 53px;
+  border: none;
+  background: #2769a5;
+  box-shadow: inset 0px 6px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  font-family: prototype;
+  font-size: 18px;
+  line-height: 19px;
+  text-transform: uppercase;
+  padding-left: 38px;
+  color: #ffffff;
+}
+.stakeButtons {
+  flex-wrap: wrap;
+}
+.stakeButtons > div {
+  padding-top: 28px;
+}
+.stakeButtons p {
+  font-family: prototype;
+  position: absolute;
+  font-size: 21.0622px;
+  line-height: 26px;
+}
+.stakeButtons > div:nth-child(1) > p {
+  color: #e45404;
+}
+.stakeButtons > div:nth-child(2) {
+  padding-left: 28px;
+}
+.stakeButtons > div:nth-child(2) > p {
+  color: #315486;
+}
+.infoAndTable {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 1200px;
+  padding-top: 72px;
+}
+.info {
+  font-family: "Plus Jakarta Display", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  max-width: 572px;
+}
+.info p:not(:nth-child(1)) {
+  padding-top: 24px;
+}
+.info span {
+  font-weight: bold;
+}
+.infoTable {
+  max-width: 445px;
+}
+.table {
+  width: 100%;
+  font-family: Prototype;
+  font-size: 18px;
+  line-height: 19px;
+  border-collapse: collapse;
+}
+.table th,
+.table td {
+  /* padding-top: 19px; */
+  /* padding-left: 29px; */
+  border: 1px solid #4898d3;
+  /* box-sizing: border-box; */
+  padding: 19px 36px;
+}
+.table th {
+  background: #2769a5;
+  border: 1px solid #4898d3;
+  box-sizing: border-box;
+}
+
+.cryptoniteSection {
+  position: relative;
+  left: 475px;
+  top: 75px;
+  z-index: 1;
+}
+
+@media (max-width: 1250px) {
+  .cryptoniteSection {
+    position: relative;
+    left: 415px;
+    top: 95px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 1130px) {
+  .contentWrapper {
+    width: unset;
+  }
+  .container {
+    background: radial-gradient(
+      101.25% 101.26% at 48.51% 118.46%,
+      #66dada 0%,
+      #332c7e 100%
+    );
+  }
+  .info {
+    text-align: center;
+    /* max-width: unset; */
+  }
+  .infoAndTable {
+    flex-direction: column;
+    align-items: center;
+    width: unset;
+  }
+  .infoTable {
+    padding-top: 28px;
+  }
+
+  .cryptoniteSection {
+    position: relative;
+    left: 405px;
+    top: 95px;
+    z-index: 1;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .cryptoniteSection {
+    position: relative;
+    left: 350px;
+    top: 95px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 950px) {
+  .cryptoniteSection {
+    position: relative;
+    left: 300px;
+    top: 95px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 850px) {
+  .cryptoniteSection {
+    position: relative;
+    left: 230px;
+    top: 95px;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .cryptoniteSection {
+    position: relative;
+    left: 230px;
+    top: 95px;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .cryptoniteSection {
+    position: relative;
+    left: 0px;
+    top: 85px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 500px) {
+  .qtyToStake > input {
+    width: 360px;
+  }
+  .progressContainer {
+    height: 38px;
+    width: 250px;
+  }
+  .progressWrapper {
+    height: 30px;
+    width: 242px;
+  }
+  .progress {
+    height: 30px;
+    width: 200px;
+  }
+  .lvlContainer {
+    width: 60px;
+    height: 60px;
+    left: -18px;
+  }
+  .lvlWrapper {
+    width: 54px;
+    height: 54px;
+  }
+  .infoAndTable {
+    width: 300px;
+  }
+  .infoTable {
+    width: 300px;
+    overflow: scroll;
+  }
+  .table {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 0px;
+  }
+  .table th,
+  .table td {
+    padding: 16px;
+  }
+  .table td {
+    padding-left: 28px;
+  }
+
+  .cryptoniteSection {
+    position: relative;
+    left: 0px;
+    top: 85px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 400px) {
+  .balanceDivWrapper {
+    width: 270px;
+    height: 60px;
+  }
+  .balanceDiv {
+    width: 264px;
+    height: 54px;
+  }
+  .balanceDiv > p {
+    position: relative;
+    left: -30px;
+    font-size: 22px;
+    line-height: 87px;
+  }
+  .balanceDiv > img {
+    position: absolute;
+    right: 25px;
+    width: 45px;
+  }
+  .qtyToStake > input {
+    width: 260px;
+    margin-left: 0px;
+  }
+  .stakeButtons img {
+    height: 40px;
+  }
+  .stakeButtons p {
+    font-size: 18px;
+  }
+  .progressContainer {
+    height: 33px;
+    width: 240px;
+    position: relative;
+    left: 10px;
+  }
+  .progressWrapper {
+    height: 25px;
+    width: 232px;
+  }
+  .progress {
+    height: 26px;
+    width: 200px;
+  }
+  .lvlContainer {
+    width: 50px;
+    height: 50px;
+    left: -8px;
+  }
+  .lvlWrapper {
+    width: 44px;
+    height: 44px;
+  }
+  .lvl {
+    font-size: 14px;
+  }
+
+  .cryptoniteSection {
+    position: relative;
+    left: 0px;
+    top: 85px;
+    z-index: 1;
+  }
+
+}
+
+

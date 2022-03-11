@@ -1,0 +1,200 @@
+.wrapper {
+  background: linear-gradient(359.62deg, #03022d 0%, #03022d 100%);
+}
+.container {
+  background: linear-gradient(359.62deg, #03022d 0%, #03022d 100%);
+  background-image: url("https://crpyotonite-game-site.s3.eu-west-2.amazonaws.com/images/homeBackground1920.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 100%; */
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.globe {
+  position: absolute;
+  z-index: 0;
+  overflow: hidden;
+  user-select: none;
+}
+.globe > img {
+  pointer-events: none;
+}
+.globe1 {
+  top: 160px;
+  right: 80px;
+}
+.globe2 {
+  top: 900px;
+  left: -420px;
+}
+
+.globe3 {
+  top: 2000px;
+  right: -650px;
+}
+
+.globe4 {
+  top: 2400px;
+  left: -280px;
+}
+
+.globe5 {
+  top: 4000px;
+  left: -300px;
+}
+
+.globe6 {
+  bottom: 500px;
+  right: -220px;
+}
+
+.rocket {
+  bottom: 315px;
+  right: 13%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: 2000;
+}
+
+.stone1 {
+  left: 21%;
+  bottom: 400px;
+}
+.stone2 {
+  left: 32%;
+  bottom: 380px;
+}
+
+.stone3 {
+  bottom: 380px;
+  right: 25%;
+}
+
+@media screen and (max-width: 1750px) {
+  .globe2 {
+    display: none;
+  }
+
+  .globe3 {
+    right: -700px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .globe2 > img,
+  .globe3 > img,
+  .globe4 > img,
+  .globe5 > img,
+  .globe6 > img {
+    width: 70%;
+  }
+  .globe1 {
+    top: 240px;
+    right: -30px;
+  }
+  .globe2 {
+    top: 700px;
+    left: -280px;
+   /*  display: none; */
+  }
+  .globe3 {
+    top: 2780px;
+    right: -910px;
+    /* display: none; */
+  }
+  .globe4 {
+    left: -185px;
+    top: 3580px;
+  }
+  .globe5 {
+    top: 4480px;
+    left: -210px;
+  }
+  .globe6 {
+    bottom: 1350px;
+    right: -300px;
+  }
+  .rocket {
+    right: 13%;
+  }
+
+  .stone1 {
+    left: 10%;
+  }
+  .stone2 {
+    left: 35%;
+  }
+
+  .stone3 {
+    right: 40%;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .globe1 {
+    top: 240px;
+    right: -60px;
+  }
+  .globe2 {
+   /*  top: 1200px;
+    left: -280px; */
+    display: none;
+  }
+  .globe3 {
+   /*  top: 2780px;
+    right: -910px; */
+    display: none;
+  }
+  .globe4 {
+    left: -185px;
+    top: 2780px;
+  }
+  .globe5 {
+    top: 4880px;
+    left: -210px;
+  }
+  .globe6 {
+    display: none;
+  }
+  .rocket {
+    right: 13%;
+  }
+
+  .stone1 {
+    left: 10%;
+  }
+  .stone2 {
+    left: 35%;
+  }
+
+  .stone3 {
+    right: 40%;
+  }
+}
+@media (max-width: 425px) {
+  .container {
+    margin-top: 0;
+    background-image: url("https://crpyotonite-game-site.s3.eu-west-2.amazonaws.com/images/homeBackground-mobile.png");
+    /* background-size: contain; */
+  }
+  .globe1 {
+    display: none;
+  }
+  .rocket {
+    bottom: 210px;
+
+    right: 8%;
+  }
+  .rocket > img {
+    width: 55px;
+  }
+  .stone1 > img,
+  .stone2 > img,
+  .stone3 > img {
+    width: 30%;
+  }
+}

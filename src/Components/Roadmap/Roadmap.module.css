@@ -1,0 +1,229 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 120px; */
+  margin-bottom: 860px;
+  z-index: 1;
+}
+.container > * {
+  z-index: 1;
+}
+
+.headingContainer {
+  position: relative;
+}
+
+.heading {
+  color: #fff;
+  font-size: 91px;
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: StarforgeRegular;
+  background: linear-gradient(0deg, #54ddc5 5.79%, #40e5fc 89.94%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 54px rgba(77, 224, 217, 0.8);
+}
+
+.contentContainer {
+  margin-top: 120px;
+}
+.leftContent {
+  display: flex;
+  align-items: center;
+}
+
+.leftContent > * {
+  margin: 0 10px;
+}
+
+.smallRockContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tileContainer {
+  display: flex;
+}
+
+.dateContainer2 {
+  display: none;
+}
+
+.dateContainer,
+.dateContainer2 {
+  position: relative;
+}
+
+.spot {
+  background: radial-gradient(
+    92.86% 92.86% at 50% 50%,
+    #ffffc2 0%,
+    #fefcc0 28%,
+    #03022d 86.8%,
+    #03022d 100%
+  );
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.dateContainer > div,
+.dateContainer2 > div {
+  font-family: Prototype;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  color: #fff;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.borderImage {
+  background-image: url(https://crpyotonite-game-site.s3.eu-west-2.amazonaws.com/images/border.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 150px;
+}
+
+@media screen and (max-width: 1140px) {
+  .dateContainer {
+    display: none;
+  }
+
+  .dateContainer2 {
+    display: inline-block;
+  }
+
+  .smallRockContainer {
+    width: 55%;
+  }
+
+  .smallRockContainer > img {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .borderImage {
+    background-image: url(https://crpyotonite-game-site.s3.eu-west-2.amazonaws.com/images/border-mobile.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 50px;
+  }
+  .smallRockContainer {
+    margin-left: 40px;
+  }
+  .smallRockContainer > img {
+    width: 50%;
+  }
+  .heading {
+    font-size: 44px;
+  }
+
+  .heading > img {
+    width: 208px;
+  }
+
+  .leftContent > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .leftContent > div:nth-child(2) > img {
+    width: 120%;
+    margin: 0 auto;
+    margin-right: 0;
+  }
+
+  .leftContent > *:nth-child(3) {
+    display: none;
+  }
+
+  .leftContent > *:nth-child(4) {
+    width: 50px;
+  }
+  .tileContainer {
+    margin-top: 20px;
+  }
+
+  .tileContainer > div:nth-child(1) {
+    width: 50%;
+  }
+
+  .tileContainer > div:nth-child(2) {
+    min-width: 200px;
+    padding-top: 36px;
+  }
+}
+
+@media screen and (max-width: 712px) {
+  .smallRockContainer {
+    width: 90%;
+    margin-left: 0;
+  }
+  .smallRockContainer > img {
+    width: 40%;
+  }
+  .dateContainer2 > img {
+    width: 180px;
+  }
+
+  .dateContainer2 > div {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 512px) {
+  .tileContainer > div:nth-child(2) {
+    padding-top: 0px;
+  }
+  .leftContent > div:nth-child(2) > img {
+    margin: 0 auto;
+  }
+  .smallRockContainer {
+    width: 78%;
+  }
+  .smallRockContainer > img {
+    width: 55%;
+  }
+  .contentContainer {
+    padding: 0 10px;
+  }
+  .smallRockContainer > img {
+    width: 36px;
+  }
+  .contentContainer {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .container {
+    margin-bottom: 346px;
+  }
+  .dateContainer2 {
+    flex-shrink: 0;
+  }
+  .dateContainer2 > img {
+    max-width: 145px;
+  }
+  .dateContainer2 > div {
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+}

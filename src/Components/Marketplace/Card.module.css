@@ -1,0 +1,49 @@
+.wrapper {
+  position: relative;
+  font-family: Prototype;
+  text-transform: uppercase;
+  color: #fff;
+  max-width: 244px;
+  /* padding: 20px; */
+}
+.content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 70px;
+}
+.fcc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.idNumber {
+  width: 89.06px;
+  height: 24px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 2.36433px;
+  font-size: 10.6667px;
+  line-height: 16px;
+  position: relative;
+  /* left: -10px; */
+}
+.rarityName {
+  font-size: 18px;
+  line-height: 37px;
+  color: #ffffff;
+  position: relative;
+  padding-top: 133px;
+  /* left: -4px; */
+}
+.priceDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 10px;
+  left: -4px;
+}
+.priceDiv img {
+  padding-right: 12px;
+}
