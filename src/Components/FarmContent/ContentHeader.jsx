@@ -74,11 +74,11 @@ const ContentHeader = () => {
     }
 
     setTimeout(()=> {
-      if (window.ethereum && window.ethereum.selectedAddress && window.sessionStorage.getItem('token')) {
+      if (window.ethereum && window.ethereum.selectedAddress) {
         getBnbAndExternalTokenBalance()
       }
     },500)
-    
+
   },[])
 
   let exchangeBkg = "https://crpyotonite-game-site.s3.eu-west-2.amazonaws.com/farm/exchangeBkg.svg";
@@ -93,8 +93,8 @@ const ContentHeader = () => {
   // }, []);
   return (
     <div className={classes.headerWrapper}>
-      {exchangeModalData && 
-      <ExchangeModal2 
+      {exchangeModalData &&
+      <ExchangeModal2
         feePercent={feePercent}
         InternalTokenBalance={InternalTokenBalance}
         CryptoniteBalance={CryptoniteBalance}
